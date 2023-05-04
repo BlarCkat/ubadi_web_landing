@@ -15,8 +15,9 @@ const LandingView = () => {
       </div>
         <button className="px-4 py-2 bg-[#0A3082] text-white rounded-[15px] hover:bg-[#092053] transition my-6">Join the waitlist</button>
       </div>
-        <div className="">
-          <Image src={'/img/landing_img.png'} alt="landing-page-image" width={500} height={750}/>
+        <div className="relative">
+          <div className="absolute top-[40%] left-[-64px] bg-[#B9F4D7] h-[30px] w-[150px]"></div>
+          <Image src={'/img/landing_img.png'} alt="landing-page-image" width={500} height={550}/>
         </div>
     </header>
 
