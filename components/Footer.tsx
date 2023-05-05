@@ -3,8 +3,8 @@ import { FaTwitter, FaFacebook, FaTiktok, FaLinkedin, FaSnapchat, FaWhatsapp, Fa
 const Footer = () => {
     return ( 
         <>
-        <div className="h-1 w-fi"></div>
-        <div className="">
+        <div className="h-1 w-fit"></div>
+        <div className="px-">
             <span>2022&copy; Ubadi. All rights reserved.</span>
             <div className="flex flex-row items-center gap-[16px]">
                 <FaTiktok/>

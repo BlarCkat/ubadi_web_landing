@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 const LayoutView = () => {
@@ -5,8 +6,9 @@ const LayoutView = () => {
         <>
         {/* header */}
         <Header/>
-        
+
         {/* footer */}
+        <Footer/>
         </>
      );
 }

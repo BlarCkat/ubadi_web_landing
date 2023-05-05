@@ -1,1 +1,10 @@
 @import './tailwind.css';
+
+@font-face {
+    font-family: "Anek Malayalam";
+    src: url('./../public/fonts/AnekMalayalam.ttf');
+}
+
+body{
+    font-family: "Anek Malayalam";
+}
