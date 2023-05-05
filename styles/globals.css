@@ -8,3 +8,7 @@
 body{
     font-family: "Anek Malayalam";
 }
+
+img{
+    object-fit: contain;
+}

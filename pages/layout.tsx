@@ -1,12 +1,14 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-const LayoutView = () => {
+const LayoutView = ({}) => {
+    
     return ( 
         <>
         {/* header */}
         <Header/>
-
+        {/* {children} */}
+        
         {/* footer */}
         <Footer/>
         </>
